@@ -40,6 +40,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 //set custom port
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3002
 app.listen(port)
 module.exports = app;
